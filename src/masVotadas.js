@@ -31,7 +31,7 @@ let masVotadas = {
         })
         return Math.round(promedio / pelis.length)
     }
-    //aporte de facu vara, rating promediado mas exacto con metodo .reduce
+    //aporte de ezekiel, rating promediado mas exacto con metodo .reduce
     
     /*promedioRating: function(){
         let movies = this.listarPelis()
