@@ -31,5 +31,18 @@ let masVotadas = {
         })
         return Math.round(promedio / pelis.length)
     }
+    //aporte de facu vara, rating promediado mas exacto con metodo .reduce
+    
+    /*promedioRating: function(){
+        let movies = this.listarPelis()
+        let rating = []
+        movies.forEach(movie => {
+            rating.push(movie.vote_average) 
+        });
+        let ratingSumado = rating.reduce(function(acum,num){
+            return acum + num
+        })
+        return (ratingSumado / movies.length)
+        },*/
 }
 module.exports=masVotadas
